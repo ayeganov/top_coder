@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.6)
+set(CMAKE_CXX_FLAGS "-std=c++14 -g")
+set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
+project(text_justify)
+add_executable(text_just text_justify.cpp)
