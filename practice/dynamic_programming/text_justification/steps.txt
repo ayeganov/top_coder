@@ -1,0 +1,9 @@
+5 steps to Dynamic Programming:
+
+1) define subproblems -> # subproblems
+2) guess (part of the solution) -> # of choices for guess
+3) relate subproblem solutions -> time/subproblem
+4) recurse & memoize OR build DP table bottom up -> check subproblem recurrence
+                                                    is acyclic i.e. has topological
+                                                    sort
+5) solve original problem
